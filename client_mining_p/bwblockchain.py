@@ -1,5 +1,6 @@
 import hashlib
 
+# for buildweek this is where we pass in the proof retrieved from lambdas back end and get a valid proof to mine a coin
 def proof_of_work(last_proof):
     print("Searching for next proof")
     proof = 10000000
